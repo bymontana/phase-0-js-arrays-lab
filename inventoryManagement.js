@@ -1,4 +1,39 @@
 // Write your code here
+// Create an array called products to store product names. Use:
+// Laptop
+// Phone
+// Headphones
+// Monitor
+
+const products = ['Laptop', 'Phone', 'Headphones', 'Monitor'];
+
+// Function to log the first product in the array
+function logFirstProduct() {
+  console.log(products[0]);
+}
+
+// Function to add a new product to the array.  This should take the product name as an argument.
+function addProduct(productName) {
+  products.push(productName);
+}
+
+// Write a function called updateProductNamr to change the name of a product.
+// This function should take the product's position in the array and the new name as arguments.
+function updateProductName(position, newName) {
+  products[position] = newName;
+}
+
+// Write a function called removeLastProduct to remove the last product from the array.
+function removeLastProduct() {
+  products.pop();
+}
+
+
+
+
+
+
+
 
 
 
